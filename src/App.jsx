@@ -1,8 +1,11 @@
 import React from 'react'
+import MultistepForm from './components/MultistepForm'
 
 const App = () => {
   return (
-    <div className='bg-red-500'>Test</div>
+    <div>
+      <MultistepForm />
+    </div>
   )
 }
 
